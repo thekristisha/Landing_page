@@ -1,0 +1,24 @@
+.comments{
+    max-width: 1184px;
+    margin: 102px auto 0;
+}
+
+@media screen and (max-width:740px){
+    .comments{
+        max-width: calc(100% - 2*16px);
+        margin-top: 64px;
+    }
+}
+
+@media screen and (min-width: 741px) and (max-width:948px){
+    .comments{
+        max-width: calc(100% - 2*54px); 
+    }
+}
+
+@media screen and (min-width: 949px) and (max-width:1204px){
+    .comments{
+        max-width: 928px;
+        margin: 97px auto 0;
+    }
+}
